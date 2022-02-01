@@ -48,9 +48,9 @@ for (let a = 100; a <= 200; a++) {
 /// exercise 5
 
 
-let time = new Date(); 
-let today = time.getToday();
-switch (today) {
+let now = new Date(); 
+let day = now.getDay();
+switch (day) {
     case 0:
         console.log("sunday");
         break;
