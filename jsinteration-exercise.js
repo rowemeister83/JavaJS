@@ -45,7 +45,7 @@ for (let a = 100; a <= 200; a++) {
   }
 
 
-/// exercise 5
+/// exercise 5 -Looked at QA solution for help with 'getDay' issue - stuck a bit!
 
 
 let now = new Date(); 
