@@ -44,8 +44,8 @@ switch(num) {
         console.log('number is four');
     case 10:
         console.log('number is ten');
-        break;
-    default;
+    break;
+    default:
     console.log('something went badly wrong')
 }
 
