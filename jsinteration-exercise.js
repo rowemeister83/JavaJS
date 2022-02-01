@@ -45,27 +45,29 @@ for (let a = 100; a <= 200; a++) {
   }
 
 
-/// exercise 5 -Looked at QA solution for help with 'getDay' issue - stuck a bit!
+/// exercise 5 -Looked at QA solution for help with 'getDay' issue - stuck a bit! - tried agian
 
 
 let now = new Date(); 
 let day = now.getDay();
 switch (day) {
     case 0:
-        console.log("sunday");
-        break;
-      case 6:
-        console.log("saturday");
-        break;
-      case 1:
-      case 2:
-      case 3:
-      case 4:
-      case 5:
+    case 1:
+    case 2:
+    case 3:
+    case 4:
         console.log("Weekdays");
         break;
-      default:
+    case 5:
+        console.log("sat");
+        break;
+    case 6:
+        console.log("sun");
+        break;
+        default:
         console.log("well lookey here, it gone done broke");
         break;
 
     }
+
+   
