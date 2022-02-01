@@ -2,7 +2,7 @@
 
 //let let =2;
 
-console.log("Hellow World!");
+console.log("Hello World!");
 
 let text = "this is a message";
 
@@ -14,6 +14,6 @@ console.warn(text);
 
 console.error(text);
 
-console.log('%c' + text, 'color:black; background-color:white; font-size: 20pxt; padding: 10px;');
+console.log('%c' + text, 'color:black; background-color:white; font-size: 40pxt; padding: 20px;');
 
 
