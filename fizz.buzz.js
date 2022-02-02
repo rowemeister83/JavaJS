@@ -6,26 +6,27 @@
 
 ////Write a program that will print the song "99 bottles of beer on the wall", based on the lyrics:
 
+
 function bottleTune() {  
-    var Bottles;
-    var BottlesLeft;
-        for (b = 99; b >= 1; b--) {
-          if (b == 1) {
-            Bottles = "Bottle";
-            BottlesLeft = "No More Bottles of beer on the wall - Go to the store and buy some more: 99 bottles of beer on the wall";
-          } else {
-            Bottles = "Bottles";
-            BottlesLeft = b - 1 + "Bottles of beer on the wall";
-          } console.log(b+ " " + Bottles + " of Beer on the wall -");
-          console.log(b+ " " + Bottles + " of beer,");
-          console.log("Take one down and pass it round,");
-          console.log(BottlesLeft);
-          } 
-          
-      }
-      console.log(bottleTune());
+  let b = 99
+  var Bottles;
+  var BottlesGone;
+  for (b =99; b >= 1; b--) {
+    if (b == 1) {
+      Bottles = "Bottle";
+      BottlesGone = "No Bottles of Beer on the wall";
+    } 
+    
+    else {
+      Bottles = "Bottles";
+      BottlesGone = b - 1 + " Bottles of beer";
+    } console.log(b+ " " + Bottles + " bottles of beer on the wall ");
+    console.log(b+ " " + Bottles + " of beer,");
+    console.log("take one down and pass it aroun,");
 
-
+    } 
+}
+console.log(bottleTune());
 
 
 ////// another
